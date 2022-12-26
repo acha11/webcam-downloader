@@ -8,4 +8,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Update="downloader.sh" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
 </Project>

@@ -4,6 +4,7 @@ try
 {
     await Download("https://www.mtstirling.com.au/cam/c01_000M.jpg", "mt-stirling");
     await Download("https://s90.ipcamlive.com/streams/5al1s8lhqb9ijpnbd/snapshot.jpg", "inverloch-slsc");
+    await Download("https://cams.ski.com.au/img/mtwellington-summit.jpg", "mt-wellington");
 }
 catch (Exception ex)
 {
